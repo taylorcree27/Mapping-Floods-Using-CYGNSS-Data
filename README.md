@@ -17,10 +17,8 @@ RWAWC (Random Walk Algorithm WaterMask from CYGNSS) segmentation method for pixe
 classification, was used to produce maps of flooding caused by Hurricane Ida in New Orleans in
 2021. Remotely sensed patterns in flooding captured by CYGNSS are compared against (1)
 ground truth flood extent confirmed by in-situ USGS gauges to assess agreement in timing of
-water level fluctuation, (2) flood maps derived from Sentinel-1 imagery, to assess the accuracy
-of the RWAWC mask data in representing changes in inundation, and 3) narrowed and
-repeated analysis for several different land covers (including agricultural, swamp, marsh, and
-residential) within the entire area of interest. A confusion matrix comparing Sentinel 1 flood
+water level fluctuation, and (2) flood maps derived from Sentinel-1 imagery, to assess the accuracy
+of the RWAWC mask data in representing changes in inundation. A confusion matrix comparing Sentinel 1 flood
 identification to RWAWC indicated that the model was not successful for this application (CSI=
 0.35, FAR: 68.4%, Accuracy: 46.1%). Considering the metrics produced, CYGNSS derived
 gridded watermask products may not currently be suited for post-disaster flood monitoring, as
