@@ -1,5 +1,5 @@
 # Repurposing CYGNSS Reflectivity Data for Rapid Flood Monitoring
-<img align = "left" src="https://science.nasa.gov/wp-content/uploads/2023/11/sarp-patch.jpeg?w=1280&format=webp" alt="drawing" width="200"/>Hi there! This summer, I was an intern for NASA's [Student Airborne Research Program (SARP)](https://science.nasa.gov/earth-science/early-career-opportunities/student-airborne-research-program/). After an incredible two weeks of contriubting to flight and field campaigns in Houston, Texas, I spent a few weeks investigating the potential of repurposed CYGNSS data to detect the evolution of evebt-based floods. I want to thank everyone who made this experience possible, but I would particualry like to thank Alex Saunders (SARP West 2026 Coding Mentor) for playing such a critical role in the development of my project and corresponding code. 
+<img align = "left" src="https://science.nasa.gov/wp-content/uploads/2023/11/sarp-patch.jpeg?w=1280&format=webp" alt="drawing" width="200"/>Hi there! This summer, I was an intern for NASA's [Student Airborne Research Program (SARP)](https://science.nasa.gov/earth-science/early-career-opportunities/student-airborne-research-program/). After an incredible two weeks of contriubting to flight and field campaigns in Houston, Texas, I spent a few weeks investigating the potential of an operational CYGNSS watermask product to detect the evolution of event-based floods. I want to thank everyone who made this experience possible, but I would particualry like to thank Alex Saunders (SARP West 2026 Coding Mentor) for playing such a critical role in the development of my project and corresponding code. 
 
 
 ## Abstract
@@ -12,7 +12,7 @@ Satellite System (CYGNSS) derived data products to map flooding beneath clouds a
 vegetation. CYGNSS has the potential to offer a much higher temporal resolution than is
 achievable with traditional, conventionally reliable satellite data sources such as Sentinel-1 and
 Sentinel-2 due to their lower revisit frequency and inability to penetrate cloud/vegetation cover,
-respectively. Here, the UC Berkeley Level 3 CYGNSS watermask product, created using the
+respectively. Here, the UC Berkeley Level 3.2 daily CYGNSS watermask product (intended for operational use), created using the
 RWAWC (Random Walk Algorithm WaterMask from CYGNSS) segmentation method for pixel
 classification, was used to produce maps of flooding caused by Hurricane Ida in New Orleans in
 2021. Remotely sensed patterns in flooding captured by CYGNSS are compared against (1)
