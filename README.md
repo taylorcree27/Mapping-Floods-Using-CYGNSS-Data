@@ -32,16 +32,3 @@ mapped flood extent. With further development of classification methodology, CYG
 revisit time could allow for post-disaster hydrologic dynamics, particularly in coastal
 areas/wetlands, to be monitored more extensively than is possible at present.
 
-## About this template
-
-This template was generated as an example for how to format and upload project code to github. Remember that uploading your code can be an interative process - it doesn't have to be perfect the first time! First focus on getting your code online, then move onto progressively organizing the code. Once you reach the cleaning stage some things to look for include:
-
-- Make sure each chunk of code has a comment or markdown explanation of what is happening in the code
-- Delete code that isn't ever used. It can be hard (emotionally), but it helps the code you are using be more useful.
-- Break your project code into a few different notebooks by analysis step and name them starting with a number. For example: `01_preprocessing.ipynb`, `02_timeseries_analysis.ipynb` and `03_visualization.ipynb`.
-- Keep seperate folders for code and figures
-
-To get even deeper into code cleaning, check out the [Good Research Code Handbook](https://goodresearch.dev/index.html).
-
-Some notes:
-- If you are using satellite images as part of your analysis they may be too large to upload to github. In that case simply upload your code.
